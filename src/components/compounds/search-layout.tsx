@@ -51,7 +51,7 @@ export default function SearchLayout({
         <CardHeader>
           <CardTitle>Results</CardTitle>
         </CardHeader>
-        <CardContent className="flex-1 max-h-[calc(100vh-18rem)] overflow-auto">
+        <CardContent className="flex-1 max-h-[calc(100vh-20rem)] overflow-auto">
           <pre className="">{ JSON.stringify(res, null, 2) }</pre>
         </CardContent>
       </Card>
